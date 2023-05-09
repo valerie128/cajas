@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Documento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Documento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+<body>
+  <div class="acordeon-cuerpo">
+  <div class="acordeon">
+    <h1>Preguntas Frecuentes</h1>
+    <hr>
+    <div class="contenedor">
+      <div class="label">problema</div>
+      <div class="content">Hacer una aplicación que solicite 2 numeros y muestre la suma</div>
+    </div>
+    <hr>
+    <div class="contenedor">
+      <div class="label">html</div>
+      <div class="content"><!DOCTYPE html>  
+        <html>  
+        <body>  
+        <h1>Sumar dos números</h1>  
+        <p>Por favor, introduce dos números:</p>  
+        <input id="num1"><br>  
+        <input id="num2">  
+        <button type="button" onclick="myFunction()">Sumar</button>  
+        <p id="sumando"></p>  
+        <script>  
+        function myFunction() {  
+          var x,y,suma,text;  
+          x = document.getElementById("num1").value;  
+          y = document.getElementById("num2").value;  
+          if (isNaN(x) || isNaN(y)) {  
+            text = "Es necesarios introducir dos números válidos";  
+          } else {  
+            //si no ponemos parseFloat concatenaría x con y  
+            suma=parseFloat(x)+parseFloat(y);  
+            text= suma;  
+          }  
+          document.getElementById("sumando").innerHTML = text;  
+        }  
+        </script>  
+        </body>  
+        </html>  
+</div>
+    </div>
+    <hr>
+    <div class="contenedor">
+      <div class="label">seucodigo</div>
+      <div class="content">Proceso Suma
+        Escribir "Ingrese el primer numero:"
+        Leer A
+    
+        Escribir "Ingrese el segundo numero:"
+        Leer B
+        // ahora se calcula la suma y se guarda el resultado en la
+        // variable C mediante la asignación (<-)
+        C <- A+B
+        // finalmente, se muestra el resultado, precedido de un 
+        // mensaje para avisar al usuario, todo en una sola
+        // instrucción Escribir
+        
+        Escribir "El resultado es: ",C
+    
+    FinProceso
+</div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="label">pseint</div>
+      <div class="content"><p><img src="image.png" alt="diagrama pseint"></p>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="etiqueta"></div>
+      <div class="contenido"></div>
+    </div>
+    <hr>
+    <div class="contenedor">
+      <div class="etiqueta"></div>
+      <div class="contenido">.</div>
+    </div>
+    <hr>
+  </div>
+  </div>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
